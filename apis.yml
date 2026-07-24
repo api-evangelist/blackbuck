@@ -1,8 +1,25 @@
 aid: blackbuck
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blackbuck.png
 name: BlackBuck
-description: 'BlackBuck is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: marketplaces. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'BlackBuck, operated by Zinka Logistics Solutions and incorporated in 2015, runs India''s
+  largest digital trucking platform, digitizing the truck-operator lifecycle for roughly a million
+  truck operators (about 28% of India''s truckers) across 100,000+ villages. Its super-app spans a
+  loads marketplace, FASTag toll payments, fuel, GPS/telematics, vehicle and working-capital financing,
+  and a used-trucks marketplace. Listed on the NSE as BLACKBUCK since November 2024, the company was
+  surfaced as a portfolio company of Accel and added to the API Evangelist network. No public developer
+  program, API documentation, or OpenAPI surface was found during enrichment; this profile carries the
+  company identity plus a probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/blackbuck/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Marketplaces
+- Logistics
+- Trucking
+- Transportation
+- Fintech
+- Supply Chain
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.blackbuck.com
+  url: https://www.blackbuck.com
+- type: Blog
+  url: https://eng.blackbuck.com/
+- type: Support
+  url: https://www.blackbuck.com/contact-us.html
+- type: DomainSecurity
+  url: security/blackbuck-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
